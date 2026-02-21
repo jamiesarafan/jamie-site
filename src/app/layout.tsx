@@ -11,7 +11,6 @@ export const metadata: Metadata = {
 const nav = [
   { href: "/research", label: "Research" },
   { href: "/teaching", label: "Teaching" },
-  { href: "/writing", label: "Writing" },
   { href: "/professional", label: "Professional" },
   { href: "/cv", label: "CV" },
   { href: "/contact", label: "Contact" },
