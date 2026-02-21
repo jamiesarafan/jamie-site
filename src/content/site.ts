@@ -3,24 +3,30 @@ export const site = {
   tagline:
     "Historian of American religion, focusing on evangelicalism, gender, and religious innovation in the nineteenth and early twentieth centuries.",
   bio: [
-    "Jamie Sarafan is a historian of American religion, focusing on evangelicalism, gender, and religious innovation in the nineteenth and early twentieth centuries. Her current research examines the early Pentecostal serpent-handling movement and the first generation of the Church of God, recovering the role of women in shaping theological authority and religious practice. She is also developing new research at the intersection of religion and environmental history, exploring how outdoor religious practices—particularly camping and revival culture—reshaped American evangelical life.",
+    "Her current research examines the early Pentecostal serpent-handling movement and the first generation of the Church of God, recovering the role of women in shaping religious authority and practice. She is also developing new research at the intersection of religion and environmental history, exploring how outdoor religious practices—particularly camping and revival culture—reshaped American evangelical life.",
   ],
   links: {
-    email: "you@email.com",
-    linkedin: "",
-    scholar: "",
+    email: "jamie.sarafan@colorado.edu",
+    linkedin: "www.linkedin.com/in/jamie-sarafan-166857124",
     cvPdfPath: "/cv.pdf",
   },
   research: {
     currentFocus:
       "Early Pentecostal serpent handling; first-generation Church of God; gendered authority and religious legitimacy in evangelical contexts.",
+    <a
+  href="/sarafan-masters-thesis.pdf"
+  className="underline hover:no-underline"
+  target="_blank"
+>
+  “The Women and the Word: Serpent Handling and the Women of the Church of God, 1914-1935” (M.A. thesis, University of Colorado Boulder, 2021)
+</a>
     emergingDirection:
       "Religion and environmental history, with particular attention to outdoor religious practice (camping, revival culture, and mediated encounters with landscape).",
     publications: [
       {
-        title: "[Article title]",
+        title: "The Women and the Word: Serpent Handling, Devotional Writing, and the Women in the Church of God, 1914-1936",
         venue: "Journal of Southern Religion (forthcoming)",
-        note: "Add link when live.",
+        note: "2025",
         link: "",
       },
     ],
