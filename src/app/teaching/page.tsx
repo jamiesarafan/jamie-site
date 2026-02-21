@@ -14,10 +14,14 @@ export default function TeachingPage() {
 
       <section className="space-y-3">
         <h2 className="text-xl font-semibold">Selected courses</h2>
-        <ul className="mt-4 space-y-3 text-sm text-zinc-700">
+ <ul className="mt-4 space-y-3 text-sm text-zinc-700">
   {site.teaching.courses.map((c) => (
-    <li key={c} className="leading-snug">
-      {c}
+    <li key={`${c.title}-${c.organization}`}>
+      <div className="font-medium">{c.title}</div>
+      <div className="text-zinc-600">
+        {c.organization} • {c.location}
+      </div>
+      <div className="text-xs text-zinc-500">{c.dates}</div>
     </li>
   ))}
 </ul>
