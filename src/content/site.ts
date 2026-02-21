@@ -15,7 +15,7 @@ export const site = {
 
   research: {
     currentFocus:
-      "Early Pentecostal serpent handling; first-generation Church of God; recovering the role of women in the creation, maintenance, and defense of the practice .",
+      "Early Pentecostal serpent handling and the first-generation Church of God; recovering the role of women in the creation, maintenance, and defense of the practice .",
     thesis: {
       title:
         "The Women and the Word: Serpent Handling and the Women of the Church of God, 1914–1935",
@@ -24,7 +24,7 @@ export const site = {
         "https://www.proquest.com/openview/267b22d2170de754b9049fcd091cd98d/1?pq-origsite=gscholar&cbl=18750&diss=y",
     },
     emergingDirection:
-      "Religion and environmental history, with particular attention to outdoor religious practice (camping, revival culture, and mediated encounters with landscape).",
+      "Religion and environmental history, with particular attention to outdoor recreation and religious practice (camping, revival culture, and mediated encounters with landscape).",
     publications: [
       {
         title:
