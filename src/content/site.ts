@@ -98,13 +98,13 @@ export const site = {
         organization: "University of Colorado Boulder",
         location: "Boulder, CO",
         dates: "Spring 2020",
-      }
+      },
      {  
         title: "Religions in the United States (Teaching Assistant)",
         organization: "University of Colorado Boulder",
         location: "Boulder, CO",
         dates: "Fall 2018",
-      }
+      },
 ],
     quotes: [
       "I would have to say that Jamie is one of the best TA's I have had. She not only encourages us to share our perspectives but enlightens the class with her own. Everything she did was effective… She was always there for me when I needed someone to reach out to.",
