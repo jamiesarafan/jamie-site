@@ -23,7 +23,7 @@ export default function TeachingPage() {
 
       {site.teaching.quotes.length ? (
         <section className="space-y-3">
-          <h2 className="text-xl font-semibold">Selected comments</h2>
+          <h2 className="text-xl font-semibold">Selected student feedback</h2>
           <ul className="space-y-2 text-zinc-700">
             {site.teaching.quotes.map((q) => (
               <li key={q} className="rounded-xl border border-zinc-200 p-4 text-sm">
