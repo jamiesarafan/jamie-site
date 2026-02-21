@@ -88,10 +88,12 @@ export const site = {
   "Religions in the United States: University of Colorado Boulder, Boulder, CO: Fall 2018"
 ],
     quotes: [
-      // "Jamie is such a wonderful teacher who is clearly passionate about the concepts she teaches. She always brought the most positive energy into the classroom, both in person and virtually. — course eval",
-      // "…[Jamie] genuinely connects with her students and tries to bring the material in a new way so even when we are confused in class she breaks the material down to an easy way of learning. Very active and involved with her class. — course eval",
-      // "I would have to say that Jamie is one of the best TA's I have had. She not only encourages us to share our perspectives but enlightens the class with her own. Everything she did was effective… She was always there for me when I needed someone to reach out to.” — course eval",
-      // "I really enjoyed your recitation. It was apparent that you cared deeply about this topic and it made me care too. — course eval",
+      "Jamie is such a wonderful teacher who is clearly passionate about the concepts she teaches. She always brought the most positive energy into the classroom, both in person and virtually. — course eval",
+      "I really enjoyed this recitation with Jamie. She encouraged everyone to contribute but didn't force people to if they didn't want to… Jamie created a very comfortable environment for students to interact in. — course eval",
+      "…[Jamie] genuinely connects with her students and tries to bring the material in a new way so even when we are confused in class she breaks the material down to an easy way of learning. Very active and involved with her class. — course eval",
+      "I would have to say that Jamie is one of the best TA's I have had. She not only encourages us to share our perspectives but enlightens the class with her own. Everything she did was effective… She was always there for me when I needed someone to reach out to.” — course eval",
+      "I really enjoyed your recitation. It was apparent that you cared deeply about this topic and it made me care too. — course eval",
+      "Jamie is one of the better TA's I've had during my time at CU Boulder. She is engaging, always has activities planned for recitation, and is readily available for help at any time. Jamie's recitation is crucial to my understanding of course material, and she does an excellent job of keeping students excited about the material. — course eval",
     ],
   },
 } as const;
