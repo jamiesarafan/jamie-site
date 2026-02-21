@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
+import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import { site } from "@/content/site";
+
+const playfair = Playfair_Display({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: site.name,
@@ -21,23 +24,21 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-white text-zinc-900 antialiased">
-        <a
+      <body className={`${playfair.className} min-h-screen bg-white text-zinc-900 antialiased`}>
+        
           href="#content"
           className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:rounded-lg focus:bg-white focus:px-3 focus:py-2 focus:shadow"
         >
           Skip to content
         </a>
-
         <header className="sticky top-0 z-50 border-b border-zinc-200/70 bg-white/80 backdrop-blur">
           <div className="mx-auto flex max-w-5xl items-center justify-between px-5 py-4">
             <Link href="/" className="group">
               <div className="text-sm font-semibold tracking-wide">{site.name}</div>
               <div className="text-xs text-zinc-500 group-hover:text-zinc-700">
-                Historian • Writer • Educator 
+                Historian • Writer • Educator
               </div>
             </Link>
-
             <nav className="hidden gap-5 md:flex">
               {nav.map((item) => (
                 <Link
@@ -49,7 +50,6 @@ export default function RootLayout({
                 </Link>
               ))}
             </nav>
-
             <div className="md:hidden">
               <Link
                 href="/contact"
@@ -60,11 +60,9 @@ export default function RootLayout({
             </div>
           </div>
         </header>
-
         <main id="content" className="mx-auto max-w-5xl px-5 py-10">
           {children}
         </main>
-
         <footer className="border-t border-zinc-200/70">
           <div className="mx-auto max-w-5xl px-5 py-8 text-sm text-zinc-500">
             <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
