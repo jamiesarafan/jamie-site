@@ -1,16 +1,11 @@
 import type { Metadata } from "next";
-import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import { site } from "@/content/site";
-
-const playfair = Playfair_Display({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
   title: site.name,
   description: site.tagline,
 };
-
 const nav = [
   { href: "/research", label: "Research" },
   { href: "/teaching", label: "Teaching" },
@@ -18,14 +13,13 @@ const nav = [
   { href: "/cv", label: "CV" },
   { href: "/contact", label: "Contact" },
 ];
-
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={`${playfair.className} min-h-screen bg-white text-zinc-900 antialiased`}>
-        
+      <body className="min-h-screen bg-white text-zinc-900 antialiased">
+
           href="#content"
           className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:rounded-lg focus:bg-white focus:px-3 focus:py-2 focus:shadow"
         >
@@ -36,7 +30,7 @@ export default function RootLayout({
             <Link href="/" className="group">
               <div className="text-sm font-semibold tracking-wide">{site.name}</div>
               <div className="text-xs text-zinc-500 group-hover:text-zinc-700">
-                Historian • Writer • Educator
+                Historian • Writer • Educator 
               </div>
             </Link>
             <nav className="hidden gap-5 md:flex">
@@ -68,7 +62,7 @@ export default function RootLayout({
             <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
               <div>© {new Date().getFullYear()} {site.name}</div>
               <div className="flex gap-4">
-                <a className="hover:text-zinc-800" href={`mailto:${site.links.email}`}>
+                <a className="hover:text-zinc-800" href={mailto:${site.links.email}}>
                   Email
                 </a>
                 <a className="hover:text-zinc-800" href={site.links.cvPdfPath}>
