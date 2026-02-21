@@ -15,7 +15,7 @@ export const site = {
 
   research: {
     currentFocus:
-      "My current research is focused on the early Pentecostal serpent handling movement and the first-generation Church of God, recovering the role of women in the creation, maintenance, and defense of the practice.",
+      "My current research centers on recovering the role of women in the creation, maintenance, and defense of Pentecostal serpent handling in the first-generation Church of God.",
     thesis: {
       title:
         "The Women and the Word: Serpent Handling and the Women of the Church of God, 1914–1935",
