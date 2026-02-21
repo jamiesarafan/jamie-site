@@ -3,7 +3,7 @@ export const site = {
   tagline:
     "Historian of American religion, focusing on evangelicalism, gender, and religious innovation in the nineteenth and early twentieth centuries.",
   bio: [
-    "Her current research examines the early Pentecostal serpent-handling movement and the first generation of the Church of God, recovering the role of women in shaping religious authority and practice. She is also developing new research at the intersection of religion and environmental history, exploring how outdoor religious practices, particularly camping and revival culture, reshaped American evangelical life.",
+    "My current research examines the early Pentecostal serpent-handling movement and the first generation of the Church of God, recovering the role of women in shaping religious authority and practice. I am also developing new research at the intersection of religion and environmental history, exploring how outdoor religious practices, particularly camping and revival culture, reshaped American evangelical life.",
   ],
 
   links: {
@@ -15,7 +15,7 @@ export const site = {
 
   research: {
     currentFocus:
-      "Early Pentecostal serpent handling and the first-generation Church of God; recovering the role of women in the creation, maintenance, and defense of the practice .",
+      "My current research is focused on the early Pentecostal serpent handling movement and the first-generation Church of God, recovering the role of women in the creation, maintenance, and defense of the practice.",
     thesis: {
       title:
         "The Women and the Word: Serpent Handling and the Women of the Church of God, 1914–1935",
@@ -24,7 +24,7 @@ export const site = {
         "https://www.proquest.com/openview/267b22d2170de754b9049fcd091cd98d/1?pq-origsite=gscholar&cbl=18750&diss=y",
     },
     emergingDirection:
-      "Religion and environmental history, with particular attention to outdoor recreation and religious practice (camping, revival culture, and mediated encounters with landscape).",
+      "Since completing my M.A., I have been developing research interests at the intersection of religion and environmental history, examining how outdoor recreation and religious practice (especially camping, revival culture, discourses of healing and wellness, and mediated encounters with landscape) have structured religious identity and cultural belonging.",
     publications: [
       {
         title:
@@ -37,7 +37,7 @@ export const site = {
   },
   professional: {
     komoot:
-      "Senior Editor and project lead for U.S. and international content. I design editorial workflows, manage distributed teams, edit and proofread written content, and build tracking systems that improve quality control, publishing cadence, and cross-team coordination.",
+      "I am the Senior Editor and project lead for U.S. content at komoot. I design editorial workflows, manage distributed teams, edit and proofread written content, and build tracking systems that improve quality control, publishing timelines, and cross-team coordination.",
     komootCollections: [
       // { title: "The High Sierra Trail — The Ultimate Sierra Experience", link: "https://www.komoot.com/collection/3288359" },
       { title: "Wonderland Trail — 93 iconic miles around Mount Rainier", link: "https://www.komoot.com/collection/3531091" },
@@ -48,7 +48,7 @@ export const site = {
     ],
 
     outdoorSummary:
-      "Designed and developed outdoor education and climbing curricula; ensured safety and effective risk management in wilderness settings and technical climbing terrain; trained and mentored staff; created transferable learning experiences in outdoor education.",
+      "I designed and developed outdoor education and climbing curricula; ensured safety and effective risk management in wilderness settings and technical climbing terrain; trained and mentored staff; created transferable learning experiences in outdoor education.",
     roles: [
       {
         title: "Director of Adult Climbing Programs and Head Instructor",
