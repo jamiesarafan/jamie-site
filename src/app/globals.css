@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Accent is used sparingly (links, buttons). Swap this later. */
+  --accent: 16 185 129; /* emerald-ish */
+}
+
+body {
+  font-feature-settings: "ss01" 1, "ss02" 1;
+}
+
+.accent {
+  color: rgb(var(--accent));
+}
+
+.accent-bg {
+  background-color: rgb(var(--accent));
+}
