@@ -17,26 +17,12 @@ export default function HomePage() {
           {site.tagline}
         </p>
 
-        <div className="max-w-3xl space-y-4 text-zinc-700">
+        <div className="max-w-3xl space-y-6 text-zinc-700">
           {site.bio.map((p) => (
             <p key={p}>{p}</p>
           ))}
         </div>
 
-       <div className="flex flex-wrap gap-3 pt-2">
-  <Link
-    href="/research"
-    className="rounded-full bg-zinc-900 px-4 py-2 text-sm text-white hover:bg-zinc-800"
-  >
-    Research
-  </Link>
-  <Link
-    href="/cv"
-    className="rounded-full border border-zinc-200 px-4 py-2 text-sm text-zinc-800 hover:bg-zinc-50"
-  >
-    CV
-  </Link>
-</div>
       </section>
 
       <section className="grid gap-4 md:grid-cols-3">
