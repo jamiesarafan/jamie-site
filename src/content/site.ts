@@ -1,7 +1,7 @@
 export const site = {
   name: "Jamie Sarafan",
   tagline:
-    "Historian of American religion, focusing on evangelicalism, gender, and religious innovation in the nineteenth and early twentieth centuries.",
+    "Jamie Sarafan is a historian of American religion, specializing on evangelicalism, gender, and religious innovation in the nineteenth and early twentieth centuries.",
   bio: [
     "I received two Master's Degrees in History and Religious Studies in 2021 from the University of Colorado Boulder. My current research examines the early Pentecostal serpent handling movement and the first generation of the Church of God, recovering the role of women in shaping religious authority and practice. I am also developing new research at the intersection of religion and environmental history, exploring how outdoor religious practices, particularly camping and revival culture, reshaped American evangelical life.",
   ],
