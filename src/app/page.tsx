@@ -6,7 +6,7 @@ export default function HomePage() {
     <div className="space-y-10">
       <section className="space-y-4">
         <p className="inline-flex items-center rounded-full border border-zinc-200 bg-white px-3 py-1 text-xs text-zinc-600 shadow-sm">
-          Academic / PhD-focused • curated writing • hybrid professional
+          Ph.D. Student in History · University of Colorado Boulder
         </p>
 
         <h1 className="text-balance text-4xl font-semibold tracking-tight md:text-5xl">
@@ -29,13 +29,6 @@ export default function HomePage() {
             className="rounded-full bg-zinc-900 px-4 py-2 text-sm text-white hover:bg-zinc-800"
           >
             Research
-          </Link>
-          <Link
-            href="/writing"
-            className="rounded-full border border-zinc-200 px-4 py-2 text-sm text-zinc-800 hover:bg-zinc-50"
-          >
-            Selected Writing
-          </Link>
           <Link
             href="/cv"
             className="rounded-full border border-zinc-200 px-4 py-2 text-sm text-zinc-800 hover:bg-zinc-50"
