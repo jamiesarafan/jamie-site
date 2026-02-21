@@ -7,9 +7,6 @@ export default function ResearchPage() {
     <div className="space-y-8">
       <header className="space-y-2">
         <h1 className="text-3xl font-semibold tracking-tight">Research</h1>
-        <p className="max-w-3xl text-zinc-700">
-          A concise overview of current work, dissertation direction, and related interests.
-        </p>
       </header>
 
       <section className="space-y-3">
