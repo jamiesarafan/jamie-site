@@ -7,7 +7,7 @@ export default function CVPage() {
         <h1 className="text-3xl font-semibold tracking-tight">CV</h1>
         
           href={site.links.cvPdfPath}
-          download
+          download={true}
           className="rounded-full bg-zinc-900 px-4 py-2 text-sm text-white hover:bg-zinc-800"
         >
           Download PDF
