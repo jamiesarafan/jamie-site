@@ -5,9 +5,6 @@ export default function TeachingPage() {
     <div className="space-y-8">
       <header className="space-y-2">
         <h1 className="text-3xl font-semibold tracking-tight">Teaching</h1>
-        <p className="max-w-3xl text-zinc-700">
-          Courses taught, teaching approach, and selected materials.
-        </p>
       </header>
 
       <section className="space-y-3">
