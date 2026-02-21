@@ -3,7 +3,7 @@ export const site = {
   tagline:
     "Historian of American religion, focusing on evangelicalism, gender, and religious innovation in the nineteenth and early twentieth centuries.",
   bio: [
-    "My current research examines the early Pentecostal serpent handling movement and the first generation of the Church of God, recovering the role of women in shaping religious authority and practice. I am also developing new research at the intersection of religion and environmental history, exploring how outdoor religious practices, particularly camping and revival culture, reshaped American evangelical life.",
+    "I received two Master's Degrees in History and Religious Studies in 2021 from the University of Colorado Boulder. My current research examines the early Pentecostal serpent handling movement and the first generation of the Church of God, recovering the role of women in shaping religious authority and practice. I am also developing new research at the intersection of religion and environmental history, exploring how outdoor religious practices, particularly camping and revival culture, reshaped American evangelical life.",
   ],
 
   links: {
@@ -37,7 +37,7 @@ export const site = {
   },
   professional: {
     komoot:
-      "I am the Senior Editor and project lead for U.S. content at komoot. I design editorial workflows, manage distributed teams, edit and proofread written content, and build tracking systems that improve quality control, publishing timelines, and cross-team coordination.",
+      "I am the Senior Editor and project lead for U.S. content at komoot. I design editorial workflows, manage a fully remote international team, edit and proofread written content, and build tracking systems that improve quality control, publishing timelines, and cross-team coordination.",
     komootCollections: [
       // { title: "The High Sierra Trail — The Ultimate Sierra Experience", link: "https://www.komoot.com/collection/3288359" },
       { title: "Wonderland Trail — 93 iconic miles around Mount Rainier", link: "https://www.komoot.com/collection/3531091" },
@@ -48,7 +48,7 @@ export const site = {
     ],
 
     outdoorSummary:
-      "I designed and developed outdoor education and climbing curricula; ensured safety and effective risk management in wilderness settings and technical climbing terrain; trained and mentored staff; created transferable learning experiences in outdoor education.",
+      "I designed and developed outdoor education and climbing curricula, ensured safety and effective risk management in wilderness settings and technical climbing terrain, trained and mentored staff, created transferable learning experiences in outdoor education.",
     roles: [
       {
         title: "Director of Adult Climbing Programs and Head Instructor",
@@ -81,11 +81,30 @@ export const site = {
     approach:
       "I  teach discussion-based classes centered on primary source analysis and building grounded, persuasive arguments. Students practice building evidence-driven claims, making interdisciplinary connections, and revising their work through structured feedback. My classroom emphasizes collaborative discussion and the development of strong analytical writing skills. I aim to challenge my students to solve problems creatively, develop critical thinking skills, and, above all, cultivate deep compassion and intellectual curiosity through the study of history.",
    courses: [
-  "World Mythology: Front Range Community College, Westminster, CO: Spring 2022",
-  "The Religious Dimensions of Human Experience: University of Colorado Boulder, Boulder, CO: Fall 2019 and 2020",
-  "Indigenous Religious Traditions: University of Colorado Boulder, Boulder, CO: Spring 2020",
-  "Meditation: Ancient and Modern: University of Colorado Boulder, Boulder, CO: Spring 2019",
-  "Religions in the United States: University of Colorado Boulder, Boulder, CO: Fall 2018"
+     {
+        title: "World Mythology (Instructor of Record)",
+        organization: "Front Range Community College",
+        location: "Westminster, CO",
+        dates: "Spring 2022",
+      },
+    {
+        title: "The Religious Dimensions of Human Experience (Teaching Assistant)",
+        organization: "University of Colorado Boulder",
+        location: "Boulder, CO",
+        dates: "Fall 2019 and 2020",
+      },
+     {  
+        title: "Indigenous Religious Traditions (Teaching Assistant)",
+        organization: "University of Colorado Boulder",
+        location: "Boulder, CO",
+        dates: "Spring 2020",
+      }
+     {  
+        title: "Religions in the United States (Teaching Assistant)",
+        organization: "University of Colorado Boulder",
+        location: "Boulder, CO",
+        dates: "Fall 2018",
+      }
 ],
     quotes: [
       "I would have to say that Jamie is one of the best TA's I have had. She not only encourages us to share our perspectives but enlightens the class with her own. Everything she did was effective… She was always there for me when I needed someone to reach out to.",
