@@ -79,7 +79,7 @@ export const site = {
 
   teaching: {
     approach:
-      "I  teach discussion-based classes centered on primary source analysis and historical argumentation. Students practice building evidence-driven claims, making interdisciplinary connections, and revising their work through structured feedback. My classroom emphasizes critical inquiry, collaborative discussion, and clarity in writing; I aim to challenge my students to solve problems creatively, develop critical thinking skills, and, above all, cultivate deep compassion and intellectual curiosity through the study of history.",
+      "I  teach discussion-based classes centered on primary source analysis and building grounded, persuasive arguments. Students practice building evidence-driven claims, making interdisciplinary connections, and revising their work through structured feedback. My classroom emphasizes collaborative discussion and the development of strong analytical writing skills. I aim to challenge my students to solve problems creatively, develop critical thinking skills, and, above all, cultivate deep compassion and intellectual curiosity through the study of history.",
    courses: [
   "World Mythology: Front Range Community College, Westminster, CO: Spring 2022",
   "The Religious Dimensions of Human Experience: University of Colorado Boulder, Boulder, CO: Fall 2019 and 2020",
@@ -88,12 +88,12 @@ export const site = {
   "Religions in the United States: University of Colorado Boulder, Boulder, CO: Fall 2018"
 ],
     quotes: [
-      "Jamie is such a wonderful teacher who is clearly passionate about the concepts she teaches. She always brought the most positive energy into the classroom, both in person and virtually. — course eval",
-      "I really enjoyed this recitation with Jamie. She encouraged everyone to contribute but didn't force people to if they didn't want to… Jamie created a very comfortable environment for students to interact in. — course eval",
-      "…[Jamie] genuinely connects with her students and tries to bring the material in a new way so even when we are confused in class she breaks the material down to an easy way of learning. Very active and involved with her class. — course eval",
-      "I would have to say that Jamie is one of the best TA's I have had. She not only encourages us to share our perspectives but enlightens the class with her own. Everything she did was effective… She was always there for me when I needed someone to reach out to.” — course eval",
-      "I really enjoyed your recitation. It was apparent that you cared deeply about this topic and it made me care too. — course eval",
-      "Jamie is one of the better TA's I've had during my time at CU Boulder. She is engaging, always has activities planned for recitation, and is readily available for help at any time. Jamie's recitation is crucial to my understanding of course material, and she does an excellent job of keeping students excited about the material. — course eval",
+      "Jamie is such a wonderful teacher who is clearly passionate about the concepts she teaches. She always brought the most positive energy into the classroom, both in person and virtually.",
+      "I really enjoyed this recitation with Jamie. She encouraged everyone to contribute but didn't force people to if they didn't want to… Jamie created a very comfortable environment for students to interact in.",
+      "…[Jamie] genuinely connects with her students and tries to bring the material in a new way so even when we are confused in class she breaks the material down to an easy way of learning. Very active and involved with her class.",
+      "I would have to say that Jamie is one of the best TA's I have had. She not only encourages us to share our perspectives but enlightens the class with her own. Everything she did was effective… She was always there for me when I needed someone to reach out to.",
+      "I really enjoyed your recitation. It was apparent that you cared deeply about this topic and it made me care too.",
+      "Jamie is one of the better TA's I've had during my time at CU Boulder. She is engaging, always has activities planned for recitation, and is readily available for help at any time. Jamie's recitation is crucial to my understanding of course material, and she does an excellent job of keeping students excited about the material.",
     ],
   },
 } as const;
