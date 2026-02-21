@@ -9,7 +9,6 @@ export default function ContactPage() {
       <div className="rounded-2xl border border-zinc-200 p-5">
         <ul className="space-y-2 text-zinc-700">
           <li>
-            Email:{" "}
             <a className="underline hover:no-underline" href={`mailto:${site.links.email}`}>
               {site.links.email}
             </a>
