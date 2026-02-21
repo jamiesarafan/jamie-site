@@ -40,9 +40,9 @@ export default function HomePage() {
       </section>
 
       <section className="grid gap-4 md:grid-cols-3">
-        <Card title="Research" desc="Projects, thesis, and current questions." href="/research" />
+        <Card title="Research" desc="Publications, thesis, and current questions." href="/research" />
         <Card title="Teaching" desc="Courses, approach, and selected materials." href="/teaching" />
-        <Card title="Professional" desc="Komoot editorial leadership + systems work." href="/professional" />
+        <Card title="Professional" desc="Komoot editorial leadership + workflows." href="/professional" />
       </section>
     </div>
   );
