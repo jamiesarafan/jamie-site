@@ -5,7 +5,6 @@ export default function ContactPage() {
     <div className="space-y-6">
       <header className="space-y-2">
         <h1 className="text-3xl font-semibold tracking-tight">Contact</h1>
-        <p className="max-w-3xl text-zinc-700">The low-drama basics.</p>
       </header>
 
       <div className="rounded-2xl border border-zinc-200 p-5">
