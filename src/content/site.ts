@@ -6,9 +6,11 @@ export const site = {
     "Her current research examines the early Pentecostal serpent-handling movement and the first generation of the Church of God, recovering the role of women in shaping religious authority and practice. She is also developing new research at the intersection of religion and environmental history, exploring how outdoor religious practices—particularly camping and revival culture—reshaped American evangelical life.",
   ],
   links: {
-    email: "jamie.sarafan@colorado.edu",
-    linkedin: "www.linkedin.com/in/jamie-sarafan-166857124",
-    cvPdfPath: "/cv.pdf",
+  email: "jamie.sarafan@colorado.edu",
+  linkedin: "https://www.linkedin.com/in/jamie-sarafan-166857124/",
+  scholar: "https://scholar.google.com/citations?hl=en&user=UPPxtogAAAAJ",
+  cvPdfPath: "/cv.pdf",
+},
 
   research: {
       currentFocus:
