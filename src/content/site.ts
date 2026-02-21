@@ -3,7 +3,7 @@ export const site = {
   tagline:
     "Historian of American religion, focusing on evangelicalism, gender, and religious innovation in the nineteenth and early twentieth centuries.",
   bio: [
-    "My current research examines the early Pentecostal serpent-handling movement and the first generation of the Church of God, recovering the role of women in shaping religious authority and practice. I am also developing new research at the intersection of religion and environmental history, exploring how outdoor religious practices, particularly camping and revival culture, reshaped American evangelical life.",
+    "My current research examines the early Pentecostal serpent handling movement and the first generation of the Church of God, recovering the role of women in shaping religious authority and practice. I am also developing new research at the intersection of religion and environmental history, exploring how outdoor religious practices, particularly camping and revival culture, reshaped American evangelical life.",
   ],
 
   links: {
