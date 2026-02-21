@@ -35,7 +35,6 @@ export const site = {
       },
     ],
   },
-
   professional: {
     komoot:
       "Senior Editor and project lead for U.S. and international content. I design editorial workflows, manage distributed teams, edit and proofread written content, and build tracking systems that improve quality control, publishing cadence, and cross-team coordination.",
