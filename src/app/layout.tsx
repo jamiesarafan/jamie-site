@@ -34,7 +34,7 @@ export default function RootLayout({
             <Link href="/" className="group">
               <div className="text-sm font-semibold tracking-wide">{site.name}</div>
               <div className="text-xs text-zinc-500 group-hover:text-zinc-700">
-                Historian • Writer • Educator • History, MA; Religious Studies, MA
+                Historian • Writer • Educator 
               </div>
             </Link>
 
