@@ -6,6 +6,13 @@ export default function ContactPage() {
       <header className="space-y-2">
         <h1 className="text-3xl font-semibold tracking-tight">Contact</h1>
       </header>
+      <div className="overflow-hidden rounded-2xl">
+        <img
+          src="/IMG_5342.jpeg"
+          alt="Landscape"
+          className="w-full h-64 object-cover"
+        />
+      </div>
       <div className="rounded-2xl border border-zinc-200 p-5">
         <ul className="space-y-2 text-zinc-700">
           <li>
