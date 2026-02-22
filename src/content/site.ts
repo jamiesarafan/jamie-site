@@ -116,10 +116,10 @@ export const site = {
    ],
     awards: [
       {
-        title: "2020–2021 Graduate Teaching Excellence Award",
+        title: "The Best Should Teach Silver Award",
         organization: "University of Colorado Boulder",
         location: "Boulder, CO",
-        dates: "April 2021",
+        dates: "September 2019",
       },
     ],
   },
