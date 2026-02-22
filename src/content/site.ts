@@ -37,7 +37,7 @@ export const site = {
   },
   professional: {
     komoot:
-      "I am the Senior Editor and project lead for U.S. content at komoot. I design editorial workflows, manage a fully remote international team, edit and proofread written content, and build tracking systems that improve quality control, publishing timelines, and cross-team coordination.",
+      "I serve as Senior Editor and project lead for U.S. content at komoot, an award-winning outdoors app. I design editorial workflows, manage a fully remote international team, edit and proofread written content, and build tracking systems that improve quality control, publishing timelines, and cross-team coordination.",
     komootCollections: [
       //  { title: "The Presidential Traverse — A classic New Hampshire sandbag", link: "https://www.komoot.com/collection/3676459" },
       { title: "Pemigewasset Loop — A White Mountains classic I keep coming back to", link: "https://www.komoot.com/collection/3705095" },
@@ -48,7 +48,7 @@ export const site = {
     ],
 
     outdoorSummary:
-      "I designed and developed outdoor education and climbing curricula, ensured safety and effective risk management in wilderness settings and technical climbing terrain, trained and mentored staff, created transferable learning experiences in outdoor education.",
+      "Before transitioning fully into editorial leadership, I spent several years in outdoor education and recreation, serving as a program director, climbing guide, and instructor. I designed climbing curricula, trained instructors, and ensured safety and risk management in wilderness settings and on technical climbs.",
     roles: [
       {
         title: "Director of Adult Climbing Programs and Head Instructor",
