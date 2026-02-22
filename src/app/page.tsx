@@ -21,13 +21,11 @@ export default function HomePage() {
 <p className="text-pretty text-lg text-zinc-700 md:text-xl">
   {site.tagline}
 </p>
-<div className="max-w-3xl space-y-4 text-zinc-700"> Sonnet 4.6
-            <div className="max-w-3xl space-y-4 text-zinc-700">
-              {site.bio.map((p) => (
-                <p key={p}>{p}</p>
-              ))}
-            </div>
-          </div>
+<div className="max-w-3xl space-y-4 text-zinc-700">
+  {site.bio.map((p) => (
+    <p key={p}>{p}</p>
+  ))}
+</div>
         </div>
       </section>
       <section className="grid gap-4 md:grid-cols-3">
