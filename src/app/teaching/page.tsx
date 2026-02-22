@@ -25,7 +25,7 @@ export default function TeachingPage() {
         </ul>
       </section>
       <section className="space-y-3">
-        <h2 className="text-xl font-semibold">Awards</h2>
+        <h2 className="text-xl font-semibold">Selected Awards</h2>
         <ul className="mt-4 space-y-3 text-sm text-zinc-700">
           {site.teaching.awards.map((a) => (
             <li key={`${a.title}-${a.organization}`}>
