@@ -113,14 +113,14 @@ export const site = {
       "…[Jamie] genuinely connects with her students and tries to bring the material in a new way so even when we are confused in class she breaks the material down to an easy way of learning. Very active and involved with her class.",
       "I really enjoyed your recitation. It was apparent that you cared deeply about this topic and it made me care too.",
       "Jamie is one of the better TA's I've had during my time at CU Boulder. She is engaging, always has activities planned for recitation, and is readily available for help at any time. Jamie's recitation is crucial to my understanding of course material, and she does an excellent job of keeping students excited about the material.",
+   ],
+    awards: [
+      {
+        title: "2020–2021 Graduate Teaching Excellence Award",
+        organization: "University of Colorado Boulder",
+        location: "Boulder, CO",
+        dates: "April 2021",
+      },
     ],
   },
-  awards: [
-  {
-    title: "2020–2021 Graduate Teaching Excellence Award",
-    organization: "University of Colorado Boulder",
-    location: "Boulder, CO",
-    dates: "April 2021",
-  },
-],
 } as const;
