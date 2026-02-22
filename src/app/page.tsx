@@ -7,7 +7,7 @@ export default function HomePage() {
       <section className="space-y-4">
         <div className="flex flex-col md:flex-row gap-8 items-start">
           <img
-            src="/IMG_1994_circle.png"
+            src="/DSCF2563_circle_centered.png"
             alt="Jamie Sarafan"
             className="w-56 h-56 rounded-full object-cover shrink-0 mt-27"
           />
