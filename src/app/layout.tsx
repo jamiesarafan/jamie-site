@@ -3,7 +3,6 @@ import "./globals.css";
 import Link from "next/link";
 import { site } from "@/content/site";
 import MobileNav from "@/app/MobileNav";
-import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: site.name,
@@ -75,7 +74,6 @@ export default function RootLayout({
             </div>
           </div>
         </footer>
-        <Analytics />
       </body>
     </html>
   );
