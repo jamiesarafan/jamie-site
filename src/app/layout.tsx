@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
 import { site } from "@/content/site";
+import MobileNav from "@/components/MobileNav";
 
 export const metadata: Metadata = {
   title: site.name,
@@ -49,14 +50,7 @@ export default function RootLayout({
                 </Link>
               ))}
             </nav>
-
-            <div className="md:hidden">
-              <Link
-                href="/contact"
-                className="rounded-full border border-zinc-200 px-3 py-1.5 text-sm text-zinc-700 hover:bg-zinc-50"
-              >
-                Contact
-              </Link>
+<MobileNav />
             </div>
           </div>
         </header>
