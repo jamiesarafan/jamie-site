@@ -51,8 +51,6 @@ export default function RootLayout({
               ))}
             </nav>
 <MobileNav />
-            </div>
-          </div>
         </header>
 
         <main id="content" className="mx-auto max-w-5xl px-5 py-10">
