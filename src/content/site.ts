@@ -39,12 +39,12 @@ export const site = {
     komoot:
       "I am the Senior Editor and project lead for U.S. content at komoot. I design editorial workflows, manage a fully remote international team, edit and proofread written content, and build tracking systems that improve quality control, publishing timelines, and cross-team coordination.",
     komootCollections: [
-      // { title: "The High Sierra Trail — The Ultimate Sierra Experience", link: "https://www.komoot.com/collection/3288359" },
-      { title: "Wonderland Trail — 93 iconic miles around Mount Rainier", link: "https://www.komoot.com/collection/3531091" },
-      { title: "The Long Trail — America's oldest long-distance path", link: "https://www.komoot.com/collection/3475352" },
-      { title: "The Presidential Traverse — A classic New Hampshire sandbag", link: "https://www.komoot.com/collection/3676459" },
+      //  { title: "The Presidential Traverse — A classic New Hampshire sandbag", link: "https://www.komoot.com/collection/3676459" },
       { title: "Pemigewasset Loop — A White Mountains classic I keep coming back to", link: "https://www.komoot.com/collection/3705095" },
       { title: "Cape Cod Weekend — Exploring the best of the outer and lower Cape", link: "https://www.komoot.com/collection/4002824" },
+      { title: "The Long Trail — America's oldest long-distance path", link: "https://www.komoot.com/collection/3475352" },
+      { title: "The High Sierra Trail — The Ultimate Sierra Experience", link: "https://www.komoot.com/collection/3288359" },
+      { title: "Wonderland Trail — 93 iconic miles around Mount Rainier", link: "https://www.komoot.com/collection/3531091" },
     ],
 
     outdoorSummary:
