@@ -9,7 +9,7 @@ export default function HomePage() {
           <img
             src="/DSCF2563_circle_centered.png"
             alt="Jamie Sarafan"
-            className="w-58 h-58 rounded-full object-cover shrink-0 mt-27"
+            className="w-57 h-57 rounded-full object-cover shrink-0 mt-27"
           />
           <div className="space-y-4">
             <h1 className="text-balance text-4xl font-semibold tracking-tight md:text-5xl">
