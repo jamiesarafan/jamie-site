@@ -12,7 +12,7 @@ export default function HomePage() {
           <img
             src="/IMG_1994_circle.png"
             alt="Jamie Sarafan"
-            className="w-48 h-48 rounded-full object-cover shrink-0"
+            className="w-56 h-56 rounded-full object-cover shrink-0 mt-6"
           />
           <div className="space-y-4">
             <h1 className="text-balance text-4xl font-semibold tracking-tight md:text-5xl">
@@ -25,20 +25,6 @@ export default function HomePage() {
               {site.bio.map((p) => (
                 <p key={p}>{p}</p>
               ))}
-            </div>
-            <div className="flex flex-wrap gap-3 pt-2">
-              <Link
-                href="/research"
-                className="rounded-full bg-zinc-900 px-4 py-2 text-sm text-white hover:bg-zinc-800"
-              >
-                Research
-              </Link>
-              <Link
-                href="/cv"
-                className="rounded-full border border-zinc-200 px-4 py-2 text-sm text-zinc-800 hover:bg-zinc-50"
-              >
-                CV
-              </Link>
             </div>
           </div>
         </div>
