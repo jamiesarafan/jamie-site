@@ -8,23 +8,41 @@ export default function HomePage() {
         <p className="inline-flex items-center rounded-full border border-zinc-200 bg-white px-3 py-1 text-xs text-zinc-600 shadow-sm">
           University of Colorado Boulder
         </p>
-
-        <h1 className="text-balance text-4xl font-semibold tracking-tight md:text-5xl">
-          {site.name}
-        </h1>
-
-        <p className="text-pretty text-lg text-zinc-700 md:text-xl">
-          {site.tagline}
-        </p>
-
-        <div className="max-w-3xl space-y-6 text-zinc-700">
-          {site.bio.map((p) => (
-            <p key={p}>{p}</p>
-          ))}
+        <div className="flex flex-col md:flex-row gap-8 items-start">
+          <img
+            src="/IMG_1994_circle.png"
+            alt="Jamie Sarafan"
+            className="w-48 h-48 rounded-full object-cover shrink-0"
+          />
+          <div className="space-y-4">
+            <h1 className="text-balance text-4xl font-semibold tracking-tight md:text-5xl">
+              {site.name}
+            </h1>
+            <p className="text-pretty text-lg text-zinc-700 md:text-xl">
+              {site.tagline}
+            </p>
+            <div className="max-w-3xl space-y-4 text-zinc-700">
+              {site.bio.map((p) => (
+                <p key={p}>{p}</p>
+              ))}
+            </div>
+            <div className="flex flex-wrap gap-3 pt-2">
+              <Link
+                href="/research"
+                className="rounded-full bg-zinc-900 px-4 py-2 text-sm text-white hover:bg-zinc-800"
+              >
+                Research
+              </Link>
+              <Link
+                href="/cv"
+                className="rounded-full border border-zinc-200 px-4 py-2 text-sm text-zinc-800 hover:bg-zinc-50"
+              >
+                CV
+              </Link>
+            </div>
+          </div>
         </div>
-
       </section>
-
       <section className="grid gap-4 md:grid-cols-3">
         <Card title="Research" desc="Publications, thesis, and current questions." href="/research" />
         <Card title="Teaching" desc="Courses, approach, and selected materials." href="/teaching" />
