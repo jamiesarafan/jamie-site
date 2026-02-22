@@ -48,7 +48,7 @@ export const site = {
     ],
 
     outdoorSummary:
-      "Before transitioning fully into editorial leadership, I spent several years in outdoor education and recreation, serving as a program director, climbing guide, and instructor. I designed climbing curricula, trained instructors, and ensured safety and risk management in wilderness settings and on technical climbs.",
+      "I spent six years in outdoor education and recreation as a program director, climbing guide, and instructor. I developed climbing curricula, trained and mentored instructors, and oversaw safety and risk management in wilderness settings and on technical terrain.",
     roles: [
       {
         title: "Director of Adult Climbing Programs and Head Instructor",
