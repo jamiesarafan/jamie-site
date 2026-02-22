@@ -26,7 +26,16 @@ export default function TeachingPage() {
   ))}
 </ul>
       </section>
-
+<section className="space-y-3">
+  <h2 className="text-xl font-semibold">Awards</h2>
+  <ul className="space-y-2 text-zinc-700">
+    <li>
+      <div className="font-medium">The Best Should Teach Silver Award</div>
+      <div className="text-zinc-600">University of Colorado Boulder • Boulder, CO</div>
+      <div className="text-xs text-zinc-500">September 2019</div>
+    </li>
+  </ul>
+</section>
       {site.teaching.quotes.length ? (
         <section className="space-y-3">
           <h2 className="text-xl font-semibold">Selected student feedback</h2>
