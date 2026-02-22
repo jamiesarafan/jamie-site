@@ -49,10 +49,10 @@ export default function RootLayout({
                   {item.label}
                 </Link>
               ))}
-            </nav>
-<MobileNav />
+           </nav>
+          <MobileNav />
+          </div>
         </header>
-
         <main id="content" className="mx-auto max-w-5xl px-5 py-10">
           {children}
         </main>
