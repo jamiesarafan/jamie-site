@@ -115,4 +115,12 @@ export const site = {
       "Jamie is one of the better TA's I've had during my time at CU Boulder. She is engaging, always has activities planned for recitation, and is readily available for help at any time. Jamie's recitation is crucial to my understanding of course material, and she does an excellent job of keeping students excited about the material.",
     ],
   },
+  awards: [
+  {
+    title: "2020–2021 Graduate Teaching Excellence Award",
+    organization: "University of Colorado Boulder",
+    location: "Boulder, CO",
+    dates: "April 2021",
+  },
+],
 } as const;
