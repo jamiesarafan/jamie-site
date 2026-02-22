@@ -30,6 +30,11 @@ export default function ContactPage() {
               Google Scholar
             </a>
           </li>
+          <li>
+            <a className="underline hover:no-underline" href="https://www.instagram.com/jamie.sarafan.mt" target="_blank" rel="noreferrer">
+              Instagram
+            </a>
+          </li>
         </ul>
       </div>
     </div>
