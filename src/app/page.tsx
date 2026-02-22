@@ -9,18 +9,20 @@ export default function HomePage() {
   <img
     src="/IMG_1994_circle.png"
     alt="Jamie Sarafan"
-    className="w-56 h-56 rounded-full object-cover shrink-0 mt-20"
+    className="w-56 h-56 rounded-full object-cover shrink-0 mt-22"
   />
   <div className="space-y-4">
-    <p className="inline-flex items-center rounded-full border border-zinc-200 bg-white px-3 py-1 text-xs text-zinc-600 shadow-sm">
-      University of Colorado Boulder
-    </p>
     <h1 className="text-balance text-4xl font-semibold tracking-tight md:text-5xl">
       {site.name}
     </h1>
             <p className="text-pretty text-lg text-zinc-700 md:text-xl">
               {site.tagline}
             </p>
+    </h1>
+<p className="inline-flex items-center rounded-full border border-zinc-200 bg-white px-3 py-1 text-xs text-zinc-600 shadow-sm">
+  University of Colorado Boulder
+</p>
+<p className="text-pretty text-lg text-zinc-700 md:text-xl">
             <div className="max-w-3xl space-y-4 text-zinc-700">
               {site.bio.map((p) => (
                 <p key={p}>{p}</p>
