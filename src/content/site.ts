@@ -3,7 +3,7 @@ export const site = {
   tagline:
     "Jamie Sarafan is a historian of American religion, specializing on evangelicalism, gender, and religious innovation in the nineteenth and early twentieth centuries.",
   bio: [
-    "I received two Master's Degrees in History and Religious Studies in 2021 from the University of Colorado Boulder. My current research examines the early Pentecostal serpent handling movement and the first generation of the Church of God, recovering the role of women in shaping religious authority and practice. I am also developing new research at the intersection of religion and environmental history, exploring how outdoor religious practices, particularly camping and revival culture, reshaped American evangelical life.",
+    "I received two Master's Degrees in History and Religious Studies in 2021 from the University of Colorado Boulder. My current research examines the early Pentecostal serpent handling movement and the first generation of the Church of God, recovering the role of women in shaping the practice. I am also developing new research at the intersection of religion and environmental history, exploring how outdoor religious practices, particularly camping and revival culture, reshaped American evangelical life.",
   ],
 
   links: {
@@ -79,7 +79,7 @@ export const site = {
 
   teaching: {
     approach:
-      "I  teach discussion-based classes centered on primary source analysis and building grounded, persuasive arguments. Students practice building evidence-driven claims, making interdisciplinary connections, and revising their work through structured feedback. My classroom emphasizes collaborative discussion and the development of strong analytical writing skills. I aim to challenge my students to solve problems creatively, develop critical thinking skills, and, above all, cultivate deep compassion and intellectual curiosity through the study of history.",
+      "I strive to teach discussion-based classes centered on primary source analysis and building grounded, persuasive arguments. Students practice building evidence-driven claims, making interdisciplinary connections, and revising their work through structured feedback. My classroom emphasizes collaborative discussion and the development of strong analytical writing skills. I aim to challenge my students to solve problems creatively, develop critical thinking skills, and, above all, cultivate deep compassion and intellectual curiosity through the study of history.",
    courses: [
      {
         title: "World Mythology (Instructor of Record)",
