@@ -79,7 +79,7 @@ export const site = {
 
   teaching: {
     approach:
-      "I strive to teach discussion-based classes centered on primary source analysis and building grounded, persuasive arguments. Students practice building evidence-driven claims, making interdisciplinary connections, and revising their work through structured feedback. My classroom emphasizes collaborative discussion and the development of strong analytical writing skills. I aim to challenge my students to solve problems creatively, develop critical thinking skills, and, above all, cultivate deep compassion and intellectual curiosity through the study of history.",
+      "History, at its best, teaches us how to think; it teaches us how to sit with complexity, interrogate evidence, and construct arguments that hold up under pressure. My classroom is built around that belief. Through close readings of primary sources, in-class discussions, and structured writing assignments, students learn to move beyond surface-level answers and develop transferable analytical habits. I aim to challenge my students to solve problems creatively, develop critical thinking skills, make interdisciplinary connections, and, above all, cultivate deep compassion and intellectual curiosity through the study of history.",
    courses: [
      {
         title: "World Mythology (Instructor of Record)",
