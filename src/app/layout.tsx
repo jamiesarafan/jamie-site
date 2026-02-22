@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
 import { site } from "@/content/site";
-import MobileNav from "@/components/MobileNav";
+import MobileNav from "@/app/components/MobileNav";
 
 export const metadata: Metadata = {
   title: site.name,
