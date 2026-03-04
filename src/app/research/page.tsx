@@ -39,19 +39,18 @@ export default function ResearchPage() {
         <h2 className="text-xl font-semibold">Publications</h2>
         <ul className="list-disc space-y-2 pl-5 text-zinc-700">
           {site.research.publications.map((p) => (
-            <li key={p.title}>
-              <span className="font-medium">{p.title}</span>, <em>{p.venue}</em>
-              {p.note ? <span className="text-zinc-500"> — {p.note}</span> : null}
-              {p.link ? (
-                <>
-                  {" "}
-                  <a className="underline hover:no-underline" href={p.link} target="_blank" rel="noreferrer">
-                    Link
-                  </a>
-                </>
-              ) : null}
-            </li>
-          ))}
+  <li key={p.title}>
+    <a
+      className="underline hover:no-underline font-medium"
+      href={p.link}
+      target="_blank"
+      rel="noreferrer"
+    >
+      {p.title}
+    </a>
+    {", "}<em>{p.venue}</em>
+  </li>
+))}
         </ul>
       </section>
     </div>
