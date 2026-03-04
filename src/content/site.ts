@@ -37,7 +37,7 @@ export const site = {
   },
   professional: {
     komoot:
-      "I serve as Senior Editor and project lead for U.S. content at komoot, an award-winning outdoors app. I design editorial workflows, manage a fully remote international team, edit and proofread written content, and build tracking systems that improve quality control, publishing timelines, and cross-team coordination.",
+      "I serve as Senior Editor and project lead for U.S. content at komoot, an award-winning outdoors app. I design editorial workflows, manage a fully remote international team, edit and proofread written content, and build tracking systems that improve quality control, publishing timelines, and cross-team coordination. I also research and write long-form editorial Collections highlighting long-distance trails in the United States and multi-day itineraries, combining local knowledge with extensive research.",
     komootCollections: [
       { title: "The Presidential Traverse — A classic New Hampshire sandbag", link: "https://www.komoot.com/collection/3676459" },
       { title: "Pemigewasset Loop — A White Mountains classic I keep coming back to", link: "https://www.komoot.com/collection/3705095" },
