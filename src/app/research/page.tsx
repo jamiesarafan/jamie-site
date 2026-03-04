@@ -48,7 +48,7 @@ export default function ResearchPage() {
     >
       {p.title}
     </a>
-    {", "}<em>{p.venue}</em>
+    {", "}<em>{p.venue}</em>{p.year ? `, ${p.year}` : ""}
   </li>
 ))}
         </ul>
