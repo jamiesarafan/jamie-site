@@ -124,11 +124,12 @@ export const site = {
 ],
     quotes: [
       "I would have to say that Jamie is one of the best TA's I have had. She not only encourages us to share our perspectives but enlightens the class with her own. Everything she did was effective… She was always there for me when I needed someone to reach out to.",
+      "I really enjoyed your recitation. It was apparent that you cared deeply about this topic and it made me care too.",
       "Jamie is such a wonderful teacher who is clearly passionate about the concepts she teaches. She always brought the most positive energy into the classroom, both in person and virtually.",
       "I really enjoyed this recitation with Jamie. She encouraged everyone to contribute but didn't force people to if they didn't want to… Jamie created a very comfortable environment for students to interact in.",
       "…[Jamie] genuinely connects with her students and tries to bring the material in a new way so even when we are confused in class she breaks the material down to an easy way of learning. Very active and involved with her class.",
-      "I really enjoyed your recitation. It was apparent that you cared deeply about this topic and it made me care too.",
-      "Jamie is one of the better TA's I've had during my time at CU Boulder. She is engaging, always has activities planned for recitation, and is readily available for help at any time. Jamie's recitation is crucial to my understanding of course material, and she does an excellent job of keeping students excited about the material.",
+      "Jamie went well out of the way just to help me in a quieter environment during office hours. She was always willing to help, upbeat, answered emails super fast. She was very kind. She explained concepts so that they were easy to understand and memorize. She clearly worked hard to make recitation a successful learning experience. I wish more TA's were like her. It was obvious she put a lot of pride and effort into recitation.",
+      "She is engaging, always has activities planned for recitation, and is readily available for help at any time. Jamie's recitation is crucial to my understanding of course material, and she does an excellent job of keeping students excited about the material.",
    ],
    awards: [
   {
