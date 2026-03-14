@@ -12,7 +12,7 @@ export default function HomePage() {
     className="w-64 h-64 rounded-full object-cover shrink-0 self-center"
   />
   <div className="space-y-4 text-zinc-700">
-    <h1 className="text-balance text-4xl font-semibold tracking-tight md:text-5xl -ml-9">
+    <h1 className="text-balance text-4xl font-semibold tracking-tight md:text-5xl -ml-0">
       {site.name}
     </h1>
     <p className="text-pretty text-lg md:text-xl">{site.tagline}</p>
