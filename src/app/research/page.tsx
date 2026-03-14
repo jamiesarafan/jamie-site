@@ -56,17 +56,17 @@ export default function ResearchPage() {
       
        <section className="space-y-3">
           <h2 className="text-xl font-semibold">Selected awards</h2>
-          <ul className="list-disc space-y-2 pl-5 text-zinc-700">
-            {site.research.awards.map((a) => (
-              <li key={a.title}>
-                <span className="font-medium">{a.title}</span>
-                {", "}
-                <em>{a.organization}</em>
-                {a.location ? `, ${a.location}` : ""}
-               {a.dates ? `, ${a.dates}` : ""}
-              </li>
-            ))}
-          </ul>
+          <ul className="mt-4 space-y-3 text-sm text-zinc-700">
+  {site.research.awards.map((a) => (
+    <li key={`${a.title}-${a.organization}`}>
+      <div className="font-medium">{a.title}</div>
+      <div className="text-zinc-600">
+        {a.organization} • {a.location}
+      </div>
+      <div className="text-xs text-zinc-500">{a.dates}</div>
+    </li>
+  ))}
+</ul>
         </section>
     </div>
   );
