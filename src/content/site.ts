@@ -49,7 +49,7 @@ export const site = {
     ],
 
     outdoorSummary:
-      "I spent six years in outdoor education and recreation as a program director, climbing guide, and instructor. I developed climbing curricula, trained and mentored instructors, and oversaw safety and risk management in wilderness settings and on technical terrain. I also taught students leadership and decision-making skills in challenging outdoor environments.",
+      "I spent six years in outdoor education and recreation as a program director, climbing guide, and instructor. I developed climbing curricula, trained and mentored instructors, and oversaw safety and risk management in wilderness settings and on technical terrain. I also taught high-school-aged students leadership and decision-making skills in challenging outdoor environments.",
     roles: [
       {
         title: "Director of Adult Climbing Programs and Head Instructor",
