@@ -33,6 +33,7 @@ export const site = {
         venue: "Journal of Southern Religion",
         year: "2025",
         link: "https://jsreligion.org/vol24/sarafan/",
+        pdfLink: "/sarafan_JSR_2025.pdf",
       },
     ],
     awards: [
