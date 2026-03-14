@@ -53,6 +53,7 @@ export default function ResearchPage() {
 ))}
         </ul>
       </section>
+      
        <section className="space-y-3">
           <h2 className="text-xl font-semibold">Selected awards</h2>
           <ul className="list-disc space-y-2 pl-5 text-zinc-700">
@@ -60,8 +61,9 @@ export default function ResearchPage() {
               <li key={a.title}>
                 <span className="font-medium">{a.title}</span>
                 {", "}
-                <em>{a.org}</em>
-                {a.year ? `, ${a.year}` : ""}
+                <em>{a.organization}</em>
+                {a.location ? `, ${a.location}` : ""}
+               {a.dates ? `, ${a.dates}` : ""}
               </li>
             ))}
           </ul>
