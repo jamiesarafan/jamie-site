@@ -35,7 +35,6 @@ export const site = {
         link: "https://jsreligion.org/vol24/sarafan/",
       },
     ],
-
     awards: [
       {
     title: "The Clyde Augustus Duniway Award for Outstanding Student Achievement",
@@ -49,7 +48,6 @@ export const site = {
     location: "Colorado Springs, CO",
     dates: "May 2016",
   },
-      },
     ],
   },
   professional: {
