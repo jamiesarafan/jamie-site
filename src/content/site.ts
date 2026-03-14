@@ -35,6 +35,22 @@ export const site = {
         link: "https://jsreligion.org/vol24/sarafan/",
       },
     ],
+
+    awards: [
+      {
+    title: "The Clyde Augustus Duniway Award for Outstanding Student Achievement",
+    organization: "Colorado College",
+    location: "Colorado Springs, CO",
+    dates: "May 2016",
+  },
+  {
+    title: "Robert J. Cosgrove Historical Thesis Prize",
+    organization: "Colorado College",
+    location: "Colorado Springs, CO",
+    dates: "May 2016",
+  },
+      },
+    ],
   },
   professional: {
     komoot:
@@ -121,18 +137,6 @@ export const site = {
     organization: "University of Colorado Boulder",
     location: "Boulder, CO",
     dates: "September 2019",
-  },
-  {
-    title: "The Clyde Augustus Duniway Award for Outstanding Student Achievement",
-    organization: "Colorado College",
-    location: "Colorado Springs, CO",
-    dates: "May 2016",
-  },
-  {
-    title: "Robert J. Cosgrove Historical Thesis Prize",
-    organization: "Colorado College",
-    location: "Colorado Springs, CO",
-    dates: "May 2016",
   },
 ],
   },
