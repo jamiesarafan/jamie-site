@@ -36,7 +36,7 @@ export default function ResearchPage() {
       </section>
 
       <section className="space-y-3">
-        <h2 className="text-xl font-semibold">Publications</h2>
+        <h2 className="text-xl font-semibold">Peer reviewed publications</h2>
         <ul className="list-disc space-y-2 pl-5 text-zinc-700">
           {site.research.publications.map((p) => (
   <li key={p.title}>
