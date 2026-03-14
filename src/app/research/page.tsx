@@ -49,6 +49,15 @@ export default function ResearchPage() {
       {p.title}
     </a>
     {", "}<em>{p.venue}</em>{p.year ? `, ${p.year}` : ""}
+{p.pdfLink && (
+    </a>
+    href={p.pdfLink}
+    download
+    className="ml-2 px-3 py-0.5 rounded-full border border-zinc-400 text-xs text-zinc-500 hover:bg-zinc-100 no-underline"
+  >
+    PDF
+  </a>
+)}
   </li>
 ))}
         </ul>
