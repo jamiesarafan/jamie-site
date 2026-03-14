@@ -26,7 +26,7 @@ export const site = {
     },
     emergingDirection:
       "Since completing my M.A., I have been developing research interests at the intersection of religion and environmental history, examining how outdoor recreation and religious practice (especially camping, revival culture, discourses of healing and wellness, and mediated encounters with landscape) have structured religious identity and cultural belonging.",
-    peerreviewedpublications: [
+    "peer-reviewedpublications": [
       {
         title:
           "The Women and the Word: Serpent Handling, Devotional Writing, and the Women in the Church of God, 1914–1936",
