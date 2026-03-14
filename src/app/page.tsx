@@ -5,11 +5,11 @@ export default function HomePage() {
   return (
     <div className="space-y-10">
       <section className="space-y-4">
-        <div className="flex flex-col md:flex-row gap-8 items-start">
+<div className="flex flex-col md:flex-row gap-8 items-center">
           <img
             src="/DSCF2563_circle_v3.png"
             alt="Jamie Sarafan"
-            className="w-56 h-56 rounded-full object-cover shrink-0 mt-27"
+  className="w-64 h-64 rounded-full object-cover shrink-0 self-center"
           />
           <div className="space-y-4">
             <h1 className="text-balance text-4xl font-semibold tracking-tight md:text-5xl">
