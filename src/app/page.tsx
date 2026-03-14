@@ -25,7 +25,6 @@ export default function HomePage() {
     </div>
   </div>
 </div>
-        </div>
       </section>
       <section className="grid gap-4 md:grid-cols-3">
         <Card title="Research" desc="Publications, thesis, and current questions." href="/research" />
