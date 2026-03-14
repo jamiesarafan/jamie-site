@@ -115,13 +115,25 @@ export const site = {
       "I really enjoyed your recitation. It was apparent that you cared deeply about this topic and it made me care too.",
       "Jamie is one of the better TA's I've had during my time at CU Boulder. She is engaging, always has activities planned for recitation, and is readily available for help at any time. Jamie's recitation is crucial to my understanding of course material, and she does an excellent job of keeping students excited about the material.",
    ],
-    awards: [
-      {
-        title: "The Best Should Teach Silver Award",
-        organization: "University of Colorado Boulder",
-        location: "Boulder, CO",
-        dates: "September 2019",
-      },
-    ],
+   awards: [
+  {
+    title: "The Best Should Teach Silver Award",
+    organization: "University of Colorado Boulder",
+    location: "Boulder, CO",
+    dates: "September 2019",
+  },
+  {
+    title: "The Clyde Augustus Duniway Award for Outstanding Student Achievement",
+    organization: "Colorado College",
+    location: "Colorado Springs, CO",
+    dates: "May 2016",
+  },
+  {
+    title: "Robert J. Cosgrove Historical Thesis Prize",
+    organization: "Colorado College",
+    location: "Colorado Springs, CO",
+    dates: "May 2016",
+  },
+],
   },
 } as const;
