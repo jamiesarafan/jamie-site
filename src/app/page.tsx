@@ -6,17 +6,15 @@ export default function HomePage() {
     <div className="space-y-10">
       <section className="space-y-4">
 <div className="flex flex-col md:flex-row gap-8 items-center">
-  <div className="flex flex-col items-center shrink-0">
-    <h1 className="text-balance text-4xl font-semibold tracking-tight md:text-5xl self-start mb-4">
+  <img
+    src="/DSCF2563_circle_v3.png"
+    alt="Jamie Sarafan"
+    className="w-64 h-64 rounded-full object-cover shrink-0 self-center"
+  />
+  <div className="space-y-4 text-zinc-700">
+    <h1 className="text-balance text-4xl font-semibold tracking-tight md:text-5xl">
       {site.name}
     </h1>
-    <img
-      src="/DSCF2563_circle_v3.png"
-      alt="Jamie Sarafan"
-      className="w-64 h-64 rounded-full object-cover"
-    />
-  </div>
-  <div className="space-y-4 text-zinc-700">
     <p className="text-pretty text-lg md:text-xl">{site.tagline}</p>
     <div className="max-w-3xl space-y-4">
       {site.bio.map((p) => (
