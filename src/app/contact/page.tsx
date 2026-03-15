@@ -16,23 +16,23 @@ export default function ContactPage() {
       <div className="rounded-2xl border border-zinc-200 p-5">
         <ul className="space-y-2 text-zinc-700">
           <li>
-            <a className="underline hover:no-underline" href={`mailto:${site.links.email}`}>
-              {site.links.email}
+           <a className="underline hover:no-underline" href={`mailto:${site.links.email}`}>
+              Email me
             </a>
           </li>
           <li>
             <a className="underline hover:no-underline" href={site.links.linkedin} target="_blank" rel="noreferrer">
-              LinkedIn
+              Connect on LinkedIn
             </a>
           </li>
           <li>
             <a className="underline hover:no-underline" href={site.links.scholar} target="_blank" rel="noreferrer">
-              Google Scholar
+              Find me on Google Scholar
             </a>
           </li>
           <li>
             <a className="underline hover:no-underline" href="https://www.instagram.com/jamie.sarafan.mt" target="_blank" rel="noreferrer">
-              Instagram
+              Follow me on Instagram
             </a>
           </li>
         </ul>
