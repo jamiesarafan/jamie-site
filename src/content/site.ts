@@ -30,8 +30,8 @@ export const site = {
       {
         title:
           "The Women and the Word: Serpent Handling, Devotional Writing, and the Women in the Church of God, 1914–1936",
-        venue: "Journal of Southern Religion",
-        year: "(24) 2025",
+        venue: "Journal of Southern Religion (24)",
+        year: "2025",
         link: "https://jsreligion.org/vol24/sarafan/",
         pdfLink: "/sarafan_JSR_2025.pdf",
       },
