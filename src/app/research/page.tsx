@@ -36,9 +36,9 @@ export default function ResearchPage() {
       </section>
 
       <section className="space-y-3">
-        <h2 className="text-xl font-semibold">Peer-reviewed publications</h2>
+        <h2 className="text-xl font-semibold">Peer-reviewed publication</h2>
         <ul className="list-disc space-y-2 pl-5 text-zinc-700">
-        {site.research["peer-reviewedpublications"].map((p) => (
+        {site.research["peer-reviewedpublication"].map((p) => (
   <li key={p.title}>
     <a
       className="underline hover:no-underline font-medium"
